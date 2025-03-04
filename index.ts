@@ -1,8 +1,9 @@
 import express, { Application, Router } from "express";
 import WebScrapperController from "./app/controllers/web-scrapper-controller";
+import dotenv from "dotenv";
 const app: Application = express();
 var router: Router = express.Router();
-const port: number = 3000;
+const port = process.env.PORT || 3000;
 const webScrapperController = new WebScrapperController();
 
 app.use(router);
