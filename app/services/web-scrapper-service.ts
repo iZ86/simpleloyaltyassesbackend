@@ -16,7 +16,7 @@ class WebScrapperService {
 
         for (const element of elements) {
             const aTag = $(element);
-            let title = undefined;
+            let title = "";
             if (aTag.find("span.text-2xl").length > 0) {
                 title = aTag.find("span.text-2xl").text().trim();
             } else {
