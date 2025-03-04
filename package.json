@@ -12,12 +12,12 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+  },
+  "dependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.13.9",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.2"
-  },
-  "dependencies": {
+    "typescript": "^5.8.2",
     "@types/cheerio": "^0.22.35",
     "axios": "^1.8.1",
     "cheerio": "^1.0.0",
